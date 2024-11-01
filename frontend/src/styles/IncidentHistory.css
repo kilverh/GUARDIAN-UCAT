@@ -1,0 +1,91 @@
+.incident-history-container {
+    max-width: 100%; /* Ocupa el 100% del ancho */
+    height: 100vh; /* Altura completa de la ventana */
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9f9; /* Color de fondo suave */
+    border-radius: 0; /* Sin bordes redondeados */
+    box-shadow: none; /* Sin sombra */
+    overflow-y: auto; /* Permitir desplazamiento vertical si es necesario */
+}
+
+.title {
+    text-align: center;
+    color: #0033a0; /* Color principal de la Universidad Católica de Colombia */
+    margin-bottom: 20px; /* Separación inferior */
+}
+
+.incident-list {
+    margin-top: 20px;
+}
+
+.incident-item {
+    background-color: #fff; /* Fondo blanco para cada incidente */
+    margin: 10px 0;
+    padding: 15px;
+    border: 1px solid #ddd; /* Borde sutil */
+    border-radius: 5px;
+    transition: box-shadow 0.3s;
+    position: relative; /* Para posicionar el botón de eliminar */
+}
+
+.incident-item:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Sombra al pasar el ratón */
+}
+
+.incident-description {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.incident-category,
+.incident-location {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.evidence-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff; /* Color de enlace */
+    text-decoration: none;
+}
+
+.evidence-link:hover {
+    text-decoration: underline; /* Subrayado al pasar el ratón */
+}
+
+.delete-button {
+    position: absolute; /* Posicionar el botón en la parte superior derecha */
+    top: 10px;
+    right: 10px;
+    background-color: #dc3545; /* Color de fondo del botón de eliminar */
+    color: white; /* Color del texto */
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.delete-button:hover {
+    background-color: #c82333; /* Color más oscuro al pasar el ratón */
+}
+
+.back-button {
+    display: block; /* Hacer que el botón de volver ocupe su propia línea */
+    margin: 20px auto; /* Centrar el botón */
+    padding: 10px 20px; /* Espaciado interno */
+    background-color: #0033a0; /* Color del botón */
+    color: white; /* Color del texto */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center; /* Centrar texto */
+    transition: background-color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #002288; /* Color más oscuro al pasar el ratón */
+}

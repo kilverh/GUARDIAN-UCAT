@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body, .principal-page {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Permite que los elementos se distribuyan con espacio entre ellos */
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    text-align: center;
+}
+
+.header {
+    background-color: #003DA5;
+    color: white;
+    padding: 20px; /* Mantener el padding */
+    border-radius: 5px;
+}
+
+.content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Centrar el contenido */
+    padding: 20px; /* Añadir un poco de padding */
+}
+
+.info-message {
+    margin-bottom: 40px; /* Aumentar el margen inferior para más espacio */
+    font-size: 1.2em; /* Tamaño de fuente más grande */
+    color: #003DA5; /* Color que coincida con el tema de la universidad */
+    line-height: 1.5; /* Mayor espacio entre líneas para mejorar la legibilidad */
+    text-align: center; /* Centra el texto */
+    padding: 10px 20px; /* Espaciado interno para que el texto no esté pegado al borde */
+    background-color: #f9f9f9; /* Color de fondo suave para el mensaje */
+    border-radius: 8px; /* Bordes redondeados para un aspecto más moderno */
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column; /* Asegura que los botones estén en una columna */
+    align-items: center; /* Centra los botones horizontalmente */
+    margin-top: 20px; /* Espacio entre el mensaje y los botones */
+    gap: 20px; /* Espacio entre botones */
+}
+
+.cta-button {
+    background-color: #FFB300;
+    color: #003DA5;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 24px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0; /* Eliminar margen para un mejor espaciado */
+    transition: background-color 0.3s;
+    width: 180px;
+}
+
+.cta-button:hover {
+    background-color: #e09a00;
+}
+
+.history-button {
+    background-color: #007BFF;
+    color: white;
+}
+
+.history-button:hover {
+    background-color: #0056b3;
+}
+
+.logout-button {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 24px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0; /* Eliminar margen para un mejor espaciado */
+    transition: background-color 0.3s;
+    width: 180px;
+}
+
+.logout-button:hover {
+    background-color: #c9302c;
+}
+
+.footer {
+    padding: 10px;
+    font-size: 14px;
+    color: #777;
+    text-align: center; /* Centra el texto del pie de página */
+    margin-top: auto; /* Asegura que el pie de página esté en el borde inferior */
+}

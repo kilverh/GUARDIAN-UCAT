@@ -1,0 +1,93 @@
+.incident-report-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('/pngtree-online-data-security-system-and-network-cyber-security-technology-image_15659567.jpg'); /* Cambia la ruta a tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+}
+
+.incident-report-form {
+    width: 700px; /* Establece el ancho a 700px */
+    background-color: #ffffff;
+    border: 2px solid #00376b;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.incident-report-form h2 {
+    text-align: center;
+    color: #00376b;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #00376b;
+}
+
+.form-group input[type="text"],
+.form-group select,
+.form-group input[type="file"],
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.form-group input[type="file"] {
+    border: none;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #00376b;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #00509e;
+}
+
+.message {
+    text-align: center;
+    color: green;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.back-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #f2f6fc; /* Color de fondo */
+    color: #00376b; /* Color del texto */
+    border: 2px solid #00376b; /* Borde azul */
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px; /* Espacio entre el formulario y el botón */
+}
+
+.back-button:hover {
+    background-color: #00376b; /* Color al pasar el mouse */
+    color: #ffffff; /* Color del texto al pasar el mouse */
+}
